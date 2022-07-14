@@ -36,20 +36,20 @@ Socket keywords may be subject to change according to the organization or the pr
 21. **deleteMessage(param,callback)** - called when user wants to delete the message and the params are messageid, userid, roomid, roomname, isType, deleteforeveryone (boolean flag)
 
 sendMessages_param = {
-**roomname** "",
-**username**: "",
-**msg**: "message text",
-**hasMsg**: Boolean param to denote its a text message,
-**hasFile**: Boolean param to denote the media file,
-**isReply**: Boolean param to denote its an reply to the particular message,
-**reply_file_type**: 'file type fo the reply message eg: text or media',
-**replayMsgId**: Id of the particular message for which the reply is sent,
-**messageContant**: "message content of the reply message",
-**msgTime**: time of the message - format "YYYY-MM-DDTHH:mm:ss.SSS"  depends on the socket server,
-**istype**: 'type of the main message eg: text or media',
-**isGroup**: boolean param to inform its a group message,
-**userId**: Login user id,
-**chatRoomId**: chat room id,
+- **roomname** "",
+- **username**: "",
+- **msg**: "message text",
+- **hasMsg**: Boolean param to denote its a text message,
+- **hasFile**: Boolean param to denote the media file,
+- **isReply**: Boolean param to denote its an reply to the particular message,
+- **reply_file_type**: 'file type fo the reply message eg: text or media',
+- **replayMsgId**: Id of the particular message for which the reply is sent,
+- **messageContant**: "message content of the reply message",
+- **msgTime**: time of the message - format "YYYY-MM-DDTHH:mm:ss.SSS"  depends on the socket server,
+- **istype**: 'type of the main message eg: text or media',
+- **isGroup**: boolean param to inform its a group message,
+- **userId**: Login user id,
+- **chatRoomId**: chat room id         
 }
 
 Offline storage is handled in the link [a link](https://github.com/Mayuri-Markandu/react-native-chat-socket-component/tree/main/src/DBInterface).
